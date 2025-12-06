@@ -52,10 +52,10 @@ Abre el fichero `.wslconfig` con un editor de texto y añade el siguiente conten
 
 3.  **Reiniciar WSL2**:
 Para que los cambios surtan efecto, debes reiniciar completamente WSL2. Abre PowerShell o CMD y ejecuta:
-    ```bash
-wsl --shutdown
-```
-    La próxima vez que abras tu terminal de Debian, se iniciará con la nueva configuración de red.
+    ```
+    wsl --shutdown
+    ```
+La próxima vez que abras tu terminal de Debian, se iniciará con la nueva configuración de red.
 
 ## 2. Instalación de Docker Engine en Debian (WSL2)
 
